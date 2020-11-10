@@ -18,10 +18,10 @@ It is what it is.
 
 
 DECRYPTION:
-    ./main.py --decrypt <inputfile> <outputfile>
+    ./handsomeware.py --decrypt <inputfile> <outputfile>
 
 ENCRYPTION
-    ./main.py [flags] <path>
+    ./handsomeware.py [flags] <path>
 
     Flags:
         --help            : Show this help message
