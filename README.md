@@ -1,5 +1,5 @@
 # HandsomeWare
-It is what it is
+It is what it is.
 
 # Donations
 XMR:
