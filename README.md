@@ -2,8 +2,8 @@
 It is what it is.
 
 # Requirements
-python 3.3 or greater
-pyAesCrypt (pip) v0.4.3 or compatible
+- python 3.3 or greater
+- pyAesCrypt (pip) v0.4.3 or compatible
 
 # Usage
 ```
