@@ -54,8 +54,9 @@ ENCRYPTION
 
 # Changelog
 ## 0.9.1 (2020-11-10)
-- Added `passes` parameter to `--shred` flag
+- Added `passes` parameter to `--shred` flag.
 - Added `--ssd` flag to ensure secure shred writes over files on media with rotational writes.
+- Added `setup-venv.sh` and `run-venv.sh` scripts to make using virtual environments simpler.
 
 ## 0.9.0 (2020-10-27)
 - Published alpha build
