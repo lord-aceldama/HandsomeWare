@@ -47,7 +47,7 @@ ENCRYPTION
                             check [ https://unix.stackexchange.com/a/65602 ].
         --x <ext>[,<ext>] : Only encrypt files with extension <ext>. Specify 
                             more than one by separating extensions with a comma.
-        --rnd [len]       : Generate random password of length [len]. (Default: 20)
+        --rnd [len]       : Use random password of length [len]. (Default: 20)
 ```
 
 ## Changelog
