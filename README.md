@@ -16,7 +16,8 @@ Standard [MIT license](/LICENSE)
 ## Setup
 ### run-venv.sh (recommended)
 To set up, just run `bash run-venv.sh` which will automatically run `setup-venv.sh`. After that you can run the script
-using `./run-venv.sh`.
+using `./run-venv.sh`. You can also run this with the command-line args which will execute automatically after setup
+completes. 
 
 ### Global setup (No venv)
 If you don't want to use a virtual environment, run the following:
