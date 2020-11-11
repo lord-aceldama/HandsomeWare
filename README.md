@@ -76,10 +76,10 @@ Every bit helps keep me motivated.
 ```
 
 You can also donate XMR for free by [pool mining](https://web.xmrpool.eu/xmr-monero-easy-mining-guide.html#callout-progress-mining) for a few days.
-coin: `monero`
-url: `xmrpool.eu:5555`
-user: `49urDtJ4Fp7M6aa8fN7UabLjhxcvcgYXLSeDcjLDcYsLRB1FJJzrYTARHLNwqT4DdVLxjycZ9L9aPj3SCrhhqR2AQAyLrNd+rss2irc_ng`
-pass: `x`
+- coin: `monero`
+- url: `xmrpool.eu:5555`
+- user: `49urDtJ4Fp7M6aa8fN7UabLjhxcvcgYXLSeDcjLDcYsLRB1FJJzrYTARHLNwqT4DdVLxjycZ9L9aPj3SCrhhqR2AQAyLrNd+rss2irc_ng`
+- pass: `x`
 
 # Changelog
 ### 0.9.2 (2020-11-11)
