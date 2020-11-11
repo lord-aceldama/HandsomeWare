@@ -1,4 +1,7 @@
-# HandsomeWare (v0.9.2)
+<!--#
+VERSION=0.9.2
+$-->
+# HandsomeWare (v{{ VERSION }})
 It is what it is.
 
 ## Project home
@@ -24,7 +27,7 @@ Standard [MIT license](/LICENSE)
 | || ((_)_ _(_/(  _| ((_)((_)_((_))(_)) \ \((_)/ ((_)_ ((_|_))   
 | __ / _` | ' \)) _` (_-< _ \ '  \() -_) \ \/\/ // _` | '_/ -_)  
 |_||_\__,_|_||_|\__,_/__|___/_|_|_|\___|  \_/\_/ \__,_|_| \___|  
-                                                         ( v0.9.2 )
+                                                         ( v{{ VERSION }} )
 
 
 PROJECT HOME:  https://github.com/lord-aceldama/HandsomeWare    
