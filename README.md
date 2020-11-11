@@ -13,8 +13,21 @@ https://github.com/lord-aceldama/HandsomeWare
 ## License
 Standard [MIT license](/LICENSE)
 
+## Setup
+### ./run-venv.sh ()
+To set up, just run `bash run-venv.sh` which will automatically run `setup-venv.sh`. After that you can run the script
+using `./run-venv.sh`.
+
+### Global setup (No venv)
+If you don't want to use a virtual environment, run the following:
+```sh
+pip install -r requirements.txt
+chmod +x *.sh
+chmod +x *.py
+```
 
 ## Usage
+Running `./run-venv.sh` or `./handsomeware.py` (depending on your setup) will show the help screen:
 ```
     )                                                            
  ( /(             (                      (  (                    
@@ -49,6 +62,10 @@ ENCRYPTION
                             extensions can be given by separating them with ",".
         --rnd [len]       : Use random password of length [len]. (Default: 20)
 ```
+
+## Update
+To update the script to the latest version, run `./update.sh`.
+
 # Donations
 Every bit helps keep me motivated.
 
