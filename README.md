@@ -49,8 +49,20 @@ ENCRYPTION
                             more than one by separating extensions with a comma.
         --rnd [len]       : Use random password of length [len]. (Default: 20)
 ```
+# Donations
+Every bit helps keep me motivated.
 
-## Changelog
+### XMR:
+```
+49urDtJ4Fp7M6aa8fN7UabLjhxcvcgYXLSeDcjLDcYsLRB1FJJzrYTARHLNwqT4DdVLxjycZ9L9aPj3SCrhhqR2AQAyLrNd
+```
+
+You can also donate by [pool mining](https://web.xmrpool.eu/xmr-monero-easy-mining-guide.html#callout-progress-mining) for a few days.
+```
+xmrig --coin 'monero' -o xmrpool.eu:5555 -u 49urDtJ4Fp7M6aa8fN7UabLjhxcvcgYXLSeDcjLDcYsLRB1FJJzrYTARHLNwqT4DdVLxjycZ9L9aPj3SCrhhqR2AQAyLrNd+handsomeware -p x
+```
+
+# Changelog
 ### 0.9.2 (2020-11-11)
 - Added csv functionality to `--x` flag.
 
@@ -63,13 +75,3 @@ ENCRYPTION
 ### 0.9.0 (2020-10-27)
 - Published alpha build
 
-# Donations
-### XMR:
-```
-49urDtJ4Fp7M6aa8fN7UabLjhxcvcgYXLSeDcjLDcYsLRB1FJJzrYTARHLNwqT4DdVLxjycZ9L9aPj3SCrhhqR2AQAyLrNd
-```
-
-[Pool mining](https://web.xmrpool.eu/xmr-monero-easy-mining-guide.html#callout-progress-mining)
-```
-xmrig --coin 'monero' -o xmrpool.eu:5555 -u 49urDtJ4Fp7M6aa8fN7UabLjhxcvcgYXLSeDcjLDcYsLRB1FJJzrYTARHLNwqT4DdVLxjycZ9L9aPj3SCrhhqR2AQAyLrNd+handsomeware -p x
-```
