@@ -14,7 +14,7 @@ https://github.com/lord-aceldama/HandsomeWare
 Standard [MIT license](/LICENSE)
 
 ## Setup
-### ./run-venv.sh ()
+### ./run-venv.sh (recommended)
 To set up, just run `bash run-venv.sh` which will automatically run `setup-venv.sh`. After that you can run the script
 using `./run-venv.sh`.
 
