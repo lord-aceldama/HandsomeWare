@@ -37,6 +37,10 @@ def print_help():
     print(f"""
 PROJECT HOME:  https://github.com/lord-aceldama/HandsomeWare    
 
+GENERAL:
+    ./{script} --help     : Show this help message.
+    ./{script} --version  : Prints the current version of the script.
+    
 DECRYPTION:
     ./{script} --decrypt <inputfile> <outputfile>
 
@@ -44,14 +48,13 @@ ENCRYPTION
     ./{script} [flags] <path>
 
     Flags:
-        --help            : Show this help message
         --shred [passes]  : Shred files after encryption. Use passes to specify
                             how many times to overwrite files. (Default: 1)
         --ssd             : Use this flag if the file/directory is on a drive
                             that does rotational writes. If you are unsure,
                             check [ https://unix.stackexchange.com/a/65602 ].
-        --x <ext>         : only encrypt files with extension .ext
-        --rnd <len>       : generate random password of length "len"
+        --x <ext>         : Only encrypt files with extension <ext>.
+        --rnd [len]       : Generate random password of length [len].
 
 """)
 
@@ -223,6 +226,8 @@ def do_decrypt():
 
 # ---------------------------------------------------------------------
 print_splash()
+if "--version" in sys.argv:
+    print(VERSION)
 if (len(sys.argv) == 1) or ("--help" in sys.argv):
     print_help()
 else:
