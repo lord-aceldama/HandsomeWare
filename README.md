@@ -16,6 +16,9 @@ XMR:
 49urDtJ4Fp7M6aa8fN7UabLjhxcvcgYXLSeDcjLDcYsLRB1FJJzrYTARHLNwqT4DdVLxjycZ9L9aPj3SCrhhqR2AQAyLrNd
 ```
 
+# License
+Standard [MIT license](/LICENSE)
+
 # Usage
 ```
     )                                                            
@@ -29,7 +32,8 @@ XMR:
                                                          ( v0.9.1 )
 
 
-PROJECT HOME:  https://github.com/lord-aceldama/HandsomeWare    
+PROJECT HOME:   https://github.com/lord-aceldama/HandsomeWare
+LICENSE:        Standard MIT license
 
 DECRYPTION:
     ./handsomeware.py --decrypt <inputfile> <outputfile>
