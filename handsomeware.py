@@ -53,8 +53,8 @@ ENCRYPTION
         --ssd             : Use this flag if the file/directory is on a drive
                             that does rotational writes. If you are unsure,
                             check [ https://unix.stackexchange.com/a/65602 ].
-        --x <ext>[,<ext>] : Only encrypt files with extension <ext>. Specify 
-                            more than one by separating extensions with a comma.
+        --x <ext>[,<ext>] : Only encrypt files with extension <ext>. Multiple 
+                            extensions can be given by separating them with ",".
         --rnd [len]       : Use random password of length [len]. (Default: 20)
 
 """)
