@@ -57,7 +57,7 @@ Every bit helps keep me motivated.
 49urDtJ4Fp7M6aa8fN7UabLjhxcvcgYXLSeDcjLDcYsLRB1FJJzrYTARHLNwqT4DdVLxjycZ9L9aPj3SCrhhqR2AQAyLrNd
 ```
 
-You can also donate by [pool mining](https://web.xmrpool.eu/xmr-monero-easy-mining-guide.html#callout-progress-mining) for a few days.
+You can also donate XMR by [pool mining](https://web.xmrpool.eu/xmr-monero-easy-mining-guide.html#callout-progress-mining) for a few days.
 ```
 xmrig --coin 'monero' -o xmrpool.eu:5555 -u 49urDtJ4Fp7M6aa8fN7UabLjhxcvcgYXLSeDcjLDcYsLRB1FJJzrYTARHLNwqT4DdVLxjycZ9L9aPj3SCrhhqR2AQAyLrNd+handsomeware -p x
 ```
