@@ -1,6 +1,11 @@
 # HandsomeWare
 It is what it is.
 
+# Project home
+```
+https://github.com/lord-aceldama/HandsomeWare
+```
+
 # Requirements
 - python 3.3 or greater
 - pyAesCrypt (pip) v0.4.3 or compatible
