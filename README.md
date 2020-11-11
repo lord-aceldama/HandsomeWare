@@ -1,7 +1,7 @@
 # HandsomeWare
 It is what it is.
 
-# Project home
+# Project home (v0.9.1)
 ```
 https://github.com/lord-aceldama/HandsomeWare
 ```
@@ -9,6 +9,12 @@ https://github.com/lord-aceldama/HandsomeWare
 # Requirements
 - python 3.3 or greater
 - pyAesCrypt (pip) v0.4.3 or compatible
+
+# Donations
+XMR:
+```
+49urDtJ4Fp7M6aa8fN7UabLjhxcvcgYXLSeDcjLDcYsLRB1FJJzrYTARHLNwqT4DdVLxjycZ9L9aPj3SCrhhqR2AQAyLrNd
+```
 
 # Usage
 ```
@@ -39,8 +45,10 @@ ENCRYPTION
         --rnd <len>       : generate random password of length "len"
 ```
 
-# Donations
-XMR:
-```
-49urDtJ4Fp7M6aa8fN7UabLjhxcvcgYXLSeDcjLDcYsLRB1FJJzrYTARHLNwqT4DdVLxjycZ9L9aPj3SCrhhqR2AQAyLrNd
-```
+# Changelog
+## 0.9.1 (2020-11-10)
+- Added `passes` parameter to `--shred` flag
+- Added `--ssd` flag to ensure secure shred writes over files on media with rotational writes.
+
+## 0.9.0 (2020-10-27)
+- Published alpha build
