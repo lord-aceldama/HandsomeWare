@@ -20,7 +20,7 @@ using `./run-venv.sh`.
 
 ### Global setup (No venv)
 If you don't want to use a virtual environment, run the following:
-```sh
+``` sh
 pip install -r requirements.txt
 chmod +x *.sh
 chmod +x *.py
