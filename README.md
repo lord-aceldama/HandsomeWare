@@ -1,4 +1,4 @@
-# HandsomeWare (v0.9.1)
+# HandsomeWare (v0.9.2)
 It is what it is.
 
 ## Project home
@@ -13,11 +13,6 @@ https://github.com/lord-aceldama/HandsomeWare
 ## License
 Standard [MIT license](/LICENSE)
 
-## Donations
-XMR:
-```
-49urDtJ4Fp7M6aa8fN7UabLjhxcvcgYXLSeDcjLDcYsLRB1FJJzrYTARHLNwqT4DdVLxjycZ9L9aPj3SCrhhqR2AQAyLrNd
-```
 
 ## Usage
 ```
@@ -29,7 +24,7 @@ XMR:
 | || ((_)_ _(_/(  _| ((_)((_)_((_))(_)) \ \((_)/ ((_)_ ((_|_))   
 | __ / _` | ' \)) _` (_-< _ \ '  \() -_) \ \/\/ // _` | '_/ -_)  
 |_||_\__,_|_||_|\__,_/__|___/_|_|_|\___|  \_/\_/ \__,_|_| \___|  
-                                                         ( v0.9.1 )
+                                                         ( v0.9.2 )
 
 
 PROJECT HOME:  https://github.com/lord-aceldama/HandsomeWare    
@@ -50,11 +45,15 @@ ENCRYPTION
         --ssd             : Use this flag if the file/directory is on a drive
                             that does rotational writes. If you are unsure,
                             check [ https://unix.stackexchange.com/a/65602 ].
-        --x <ext>         : Only encrypt files with extension <ext>.
+        --x <ext>[,<ext>] : Only encrypt files with extension <ext>. Specify 
+                            more than one by separating extensions with a comma.
         --rnd [len]       : Generate random password of length [len].
 ```
 
 ## Changelog
+### 0.9.2 (2020-11-11)
+- Added csv functionality to `--x` flag.
+
 ### 0.9.1 (2020-11-10)
 - Added `--ssd` flag to ensure secure shred writes over files on media with rotational writes.
 - Added `--version` flag.
@@ -63,3 +62,14 @@ ENCRYPTION
 
 ### 0.9.0 (2020-10-27)
 - Published alpha build
+
+# Donations
+### XMR:
+```
+49urDtJ4Fp7M6aa8fN7UabLjhxcvcgYXLSeDcjLDcYsLRB1FJJzrYTARHLNwqT4DdVLxjycZ9L9aPj3SCrhhqR2AQAyLrNd
+```
+
+[Pool mining](https://web.xmrpool.eu/xmr-monero-easy-mining-guide.html#callout-progress-mining)
+```
+xmrig --coin 'monero' -o xmrpool.eu:5555 -u 49urDtJ4Fp7M6aa8fN7UabLjhxcvcgYXLSeDcjLDcYsLRB1FJJzrYTARHLNwqT4DdVLxjycZ9L9aPj3SCrhhqR2AQAyLrNd+handsomeware -p x
+```

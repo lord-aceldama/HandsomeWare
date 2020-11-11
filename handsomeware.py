@@ -10,7 +10,7 @@ except ImportError:
     print("Error importing pyAesCrypt. Please run 'pip install pyAesCrypt'.")
     sys.exit(-1)
 
-VERSION = "0.9.1"
+VERSION = "0.9.2"
 BUFFER_SIZE = 64 * 1024
 DEFAULT_PASSWORD = None  # if you want you can use a string like "Password123" here.
 
@@ -53,7 +53,8 @@ ENCRYPTION
         --ssd             : Use this flag if the file/directory is on a drive
                             that does rotational writes. If you are unsure,
                             check [ https://unix.stackexchange.com/a/65602 ].
-        --x <ext>         : Only encrypt files with extension <ext>.
+        --x <ext>[,<ext>] : Only encrypt files with extension <ext>. Specify 
+                            more than one by separating extensions with a comma.
         --rnd [len]       : Generate random password of length [len].
 
 """)
@@ -159,8 +160,8 @@ def do_encrypt():
         # Get command line flags
         ext = None
         if "--x" in sys.argv:
-            ext = sys.argv[sys.argv.index("--x") + 1]
-            print(f" * Encrypting all files with extension {ext}")
+            ext = sys.argv[sys.argv.index("--x") + 1].split(",")
+            print(f" * Encrypting all files with extension(s): {', '.join(ext)}")
 
         shred_originals = "--shred" in sys.argv
         shred_passes = 1
@@ -190,7 +191,8 @@ def do_encrypt():
         for path, _, files in os.walk(root_dir):
             print(f"[{path}]")
             for infile in files:
-                if (ext is None) or (infile.endswith(ext)):
+                f_ext = os.path.splitext(infile)[1]
+                if (ext is None) or (f_ext == "") or (f_ext[1:] in ext):
                     outfile = os.path.join(path, get_filename(path, infile))
                     print(f"  + {infile} -> {outfile}")
                     try:
