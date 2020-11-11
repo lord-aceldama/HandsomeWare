@@ -26,7 +26,10 @@ XMR:
 | || ((_)_ _(_/(  _| ((_)((_)_((_))(_)) \ \((_)/ ((_)_ ((_|_))   
 | __ / _` | ' \)) _` (_-< _ \ '  \() -_) \ \/\/ // _` | '_/ -_)  
 |_||_\__,_|_||_|\__,_/__|___/_|_|_|\___|  \_/\_/ \__,_|_| \___|  
+                                                         ( v0.9.1 )
 
+
+PROJECT HOME:  https://github.com/lord-aceldama/HandsomeWare    
 
 DECRYPTION:
     ./handsomeware.py --decrypt <inputfile> <outputfile>

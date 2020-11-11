@@ -10,6 +10,7 @@ except ImportError:
     print("Error importing pyAesCrypt. Please run 'pip install pyAesCrypt'.")
     sys.exit(-1)
 
+VERSION = "0.9.1"
 BUFFER_SIZE = 64 * 1024
 DEFAULT_PASSWORD = None  # if you want you can use a string like "Password123" here.
 
@@ -26,18 +27,21 @@ def print_splash():
 | || ((_)_ _(_/(  _| ((_)((_)_((_))(_)) \\ \\((_)/ ((_)_ ((_|_))   
 | __ / _` | ' \\)) _` (_-< _ \\ '  \\() -_) \\ \\/\\/ // _` | '_/ -_)  
 |_||_\\__,_|_||_|\\__,_/__|___/_|_|_|\\___|  \\_/\\_/ \\__,_|_| \\___|  
+                                                         ( v{VERSION} )
 """)
 
 
 def print_help():
     """Prints the help menu."""
-    script = f"'./{sys.argv[0]}'" if len(sys.argv[0].split()) > 1 else f"./{sys.argv[0]}"
+    script = os.path.basename(sys.argv[0])
     print(f"""
+PROJECT HOME:  https://github.com/lord-aceldama/HandsomeWare    
+
 DECRYPTION:
-    {script} --decrypt <inputfile> <outputfile>
+    ./{script} --decrypt <inputfile> <outputfile>
 
 ENCRYPTION
-    {script} [flags] <path>
+    ./{script} [flags] <path>
 
     Flags:
         --help            : Show this help message
